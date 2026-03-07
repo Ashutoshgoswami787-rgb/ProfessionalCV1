@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    }
+    
+    body{
+    background:#f4f4f4;
+    display:flex;
+    justify-content:center;
+    padding:40px;
+    }
+    
+    .resume{
+    background:white;
+    width:210mm;
+    min-height:297mm;
+    padding:40px;
+    }
+    
+    .header{
+    display:flex;
+    align-items:center;
+    margin-bottom:30px;
+    }
+    
+    .profile img{
+    width:110px;
+    height:110px;
+    border-radius:50%;
+    object-fit:cover;
+    margin-right:20px;
+    }
+    
+    .name h1{
+    font-size:28px;
+    letter-spacing:2px;
+    }
+    
+    .name p{
+    font-size:16px;
+    color:#666;
+    }
+    
+    section{
+    margin-bottom:30px;
+    }
+    
+    h2{
+    font-size:18px;
+    border-bottom:2px solid black;
+    padding-bottom:5px;
+    margin-bottom:15px;
+    }
+    
+    .row{
+    display:flex;
+    margin-bottom:15px;
+    }
+    
+    .year{
+    width:120px;
+    font-weight:bold;
+    color:#333;
+    }
+    
+    .row h3{
+    font-size:16px;
+    }
+    
+    .row p{
+    font-size:14px;
+    color:#555;
+    }
+    
+    .skills{
+    columns:2;
+    list-style:disc;
+    margin-left:20px;
+    }
+    
+    .skills li{
+    margin-bottom:6px;
+    }
+    
+    .references{
+    display:flex;
+    gap:40px;
+    }
+    
+    .references h4{
+    font-size:15px;
+    }
+    
+    footer{
+    margin-top:30px;
+    text-align:center;
+    font-size:14px;
+    color:#555;
+    }
